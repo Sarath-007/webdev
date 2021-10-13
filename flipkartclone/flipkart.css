@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Patrick+Hand&display=swap');
+@media  screen and (max-width:1000px) {
+    body{
+        background-color: red;
+    }
+    nav{
+        flex-direction: column;
+
+    }
+    .logo{
+        justify-content: center;
+        margin:12px 0px;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .slider{
+        display: none;
+    }
+    .dropbtn{
+        justify-content: center;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height:10vh;
+    background-color: blue;
+}
+nav{
+    display:flex;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+
+}
+nav ul a{
+    color:white;
+    background-color: blue;
+    padding:15px;
+    font-family: cursive;
+
+    
+    }
+nav ul a:hover{
+    color:yellow;
+    font-weight: bolder;
+
+    }
+.logo{
+    display:flex;
+    justify-content: center;
+    
+}
+.logo img{
+    padding:10px 23px;
+
+}
+
+.footer-main{
+    height:10vh;
+    background-color: blue;
+    color:white;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    border-top: 1px solid;
+    padding: 8vh;
+    margin:5vh;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.container{
+    min-height:70vh;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.searchbar input{
+    width:30vw;
+    height:35px;
+    border: 10px black;
+    border-radius: 10px;
+    padding:3px;
+    margin: 9px;
+}
+.btn{
+    display:flex;
+    justify-content: center;
+    color: blue;
+    background-color: yellow;
+     margin:10px 25px 10px 25px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+}
+.btn:hover{
+    font-weight: bolder;
+}
+.slider{
+    margin:20px auto;
+    display: flex;
+    justify-content: center;
+    height:200px;
+}
+.card{
+    max-width: 90vw;
+    margin:auto;
+    background-color:whitesmoke;
+}
+.card h2{
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+.card-item{
+    margin:20px;
+    display:inline-flex;
+    justify-content: center;
+    
+}.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lines{
+    padding: 25px 5px;
+    font-family: 'Patrick Hand', cursive;
+}
+footer{
+    width:100vw;
+}
+.dropbtn {
+    background-color:yellow;
+    color: blue;
+    padding: 11px;
+    margin:10px 25px 10px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+  }
+  .dropdown-content a:hover {background-color: rgb(230, 227, 94);
+font-weight: bolder;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  .item-btn{
+    background-color:yellow;
+    color: blue;
+    padding: 10px;
+    margin:10px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25%;
+
+  }
+  .item-btn:hover{
+      font-weight: bolder;
+  }
+  .about{
+      padding-bottom: 5px;
+      margin-bottom: auto;
+      
+  }
+  .about h3{
+      padding:10px;
+  }
+  .about ul{
+      list-style-type: none;
+  }
+  
