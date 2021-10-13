@@ -1,0 +1,65 @@
+title{
+    text-align: center;
+    font-size: large;
+}
+body{
+
+    background-color: aquamarine;
+    font-size: large;
+    font-family: cursive;
+}
+table tr td{
+    margin:auto;
+    padding-bottom: 25 px;
+    width:80%;
+    border-collapse: collapse;
+
+}
+img {
+    margin:50 px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50%;
+  }
+  h2{
+      text-align: center;
+  }
+  ul{
+      text-align: center;
+  }
+#mainheader{
+    background-color: lightcoral;
+    color:white;
+    text-align: center;
+}
+.intro{
+    padding: 12 em;
+    border: 10px dashed;
+
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    text-align: center;
+}
+.footer{
+    font-size: large;
+    font-family: cursive;
+    color: ghostwhite;
+    text-align: center;
+
+}
+.my-form{
+    padding: 30 px;
+}
+.my-form .mygroup{
+    text-align: left;
+    padding-left:20px;
+    margin: 10%;
+
+}
+.my-form input[type='text']{
+    padding:10 px;
+    border:1 px solid;
+}
