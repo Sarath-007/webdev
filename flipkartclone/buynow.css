@@ -1,0 +1,31 @@
+.content {
+    position: absolute;
+    border:3px sold black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 200ms ease-in-out;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    background-color:whitesmoke;
+    color:blue;
+    
+    padding: 10px;
+    z-index: 100;
+    display: none;
+   
+    /*to hide popup initially*/
+}
+
+.close-btn {
+    position: absolute;
+    right: 9px;
+    top: 4px;
+    font-weight: bolder;
+
+    color: blue;
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+}

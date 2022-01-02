@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Patrick+Hand&display=swap');
-@media  screen and (max-width:1000px) {
+@media  screen and (max-width:700px) {
     body{
         background-color: red;
     }
@@ -39,8 +39,7 @@ nav ul{
 
 }
 nav ul a{
-    color:white;
-    background-color: blue;
+    
     padding:15px;
     font-family: cursive;
 
@@ -54,25 +53,40 @@ nav ul a:hover{
 .logo{
     display:flex;
     justify-content: center;
+    margin-top: 5px;
+    
     
 }
 .logo img{
-    padding:10px 23px;
+    padding:8px 10px;
 
 }
 
 .footer-main{
-    height:10vh;
+    height:20vh;
     background-color: blue;
     color:white;
     display: flex;
     text-align: center;
     justify-content: space-evenly;
     border-top: 1px solid;
-    padding: 8vh;
-    margin:5vh;
+    padding: 2vw;
+    margin:1vw;
     font-family: 'Courier New', Courier, monospace;
 
+}
+.fa {
+    display: inline-block;
+    margin: 10px -33px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+       cursor: pointer;}
+.copyright{
+    padding: 2vw;
+    margin:1vw;
 }
 .container{
     min-height:70vh;
@@ -81,6 +95,8 @@ nav ul a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    
 
     
 }
@@ -92,11 +108,22 @@ nav ul a:hover{
     padding:3px;
     margin: 9px;
 }
+.box{
+    width:35vw;
+    height:35px;
+    border: 10px black;
+    border-radius: 10px;
+    padding:3px;
+    margin: 9px;
+    background-color: white;
+}
+
+
 .btn{
     display:flex;
     justify-content: center;
     color: blue;
-    background-color: yellow;
+    background-color: white;
      margin:10px 25px 10px 25px;
     cursor: pointer;
     padding: 10px;
@@ -142,10 +169,10 @@ footer{
     width:100vw;
 }
 .dropbtn {
-    background-color:yellow;
+    background-color:white;
     color: blue;
     padding: 11px;
-    margin:10px 25px 10px 25px;
+    margin:10px 50px 10px 84px;
     cursor: pointer;
     border: none;
     border-radius: 10px;
@@ -195,7 +222,7 @@ font-weight: bolder;}
       font-weight: bolder;
   }
   .about{
-      padding-bottom: 5px;
+      padding-bottom: 10px;
       margin-bottom: auto;
       
   }
@@ -205,4 +232,18 @@ font-weight: bolder;}
   .about ul{
       list-style-type: none;
   }
+  .zZ3yfL {
+    transform: rotate(
+-180deg) rotate(
+91deg);
+    transition: transform .1s;
+}
+.zZ3yfL {
+    -webkit-transform: rotate( 
+270deg);
+    transform: rotate( 
+270deg);
+    margin: 35px 0 0 -47px;
+    color: blue;
+}
   
